@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">samurai_fit</string>
+
+    <string name="today_goal"></string>
+    <string-array name="menu">
+        <item>腕立て</item>
+        <item>回</item>
+    </string-array>
+    <string name="goal">10</string>
+
     <string name="notify">通知機能</string>
     <string name="goals">目標設定</string>
     <string name="login">ログイン</string>
