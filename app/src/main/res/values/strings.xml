@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">samurai_fit</string>
+    <string name="notify">通知機能</string>
+    <string name="goals">目標設定</string>
+    <string name="login">ログイン</string>
+    <string name="autopost">自動投稿</string>
+    <string name="privacy">プライバシー関連</string>
+    <string name="setting">設定</string>
+    <string name="a">うんこ\n</string>
 </resources>
