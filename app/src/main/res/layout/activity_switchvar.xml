@@ -17,39 +17,33 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button 1" />
+            android:text="ホーム" />
 
         <!-- ボタン2 -->
+
+        <!-- ボタン3 -->
         <Button
             android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button 2" />
+            android:text="メイン" />
 
-        <!-- ボタン3 -->
+        <!-- ボタン4 -->
         <Button
             android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button 3" />
+            android:text="自動投稿" />
 
-        <!-- ボタン4 -->
+        <!-- ボタン5 -->
         <Button
             android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button 4" />
-
-        <!-- ボタン5 -->
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button 5" />
+            android:text="設定" />
 
     </LinearLayout>
 
