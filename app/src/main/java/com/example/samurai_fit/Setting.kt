@@ -1,58 +1,37 @@
-package com.example.samurai_fit;
+package com.example.samurai_fit
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-
-public class Setting extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
+class Setting : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_setting)
 
         // 画面切り替え用のスイッチの処理
-        Button myButton1 = findViewById(R.id.button1);
-        Button myButton2 = findViewById(R.id.button2);
-        Button myButton3 = findViewById(R.id.button3);
-        Button myButton4 = findViewById(R.id.button4);
-
-        myButton1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Setting.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        myButton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                Intent intent = new Intent(Setting.this, Setting.class);
+        val myButton1 = findViewById<Button>(R.id.button1)
+        val myButton2 = findViewById<Button>(R.id.button2)
+        val myButton3 = findViewById<Button>(R.id.button3)
+        val myButton4 = findViewById<Button>(R.id.button4)
+        myButton1.setOnClickListener {
+            val intent = Intent(this@Setting, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        myButton2.setOnClickListener {
+            //                Intent intent = new Intent(Setting.this, Setting.class);
 //                startActivity(intent);
-            }
-        });
-
-        myButton3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                Intent intent = new Intent(Setting.this, Setting.class);
+        }
+        myButton3.setOnClickListener {
+            //                Intent intent = new Intent(Setting.this, Setting.class);
 //                startActivity(intent);
-            }
-        });
-
-        myButton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Setting.this, Setting.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
+        }
+        myButton4.setOnClickListener {
+            val intent = Intent(this@Setting, Setting::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
