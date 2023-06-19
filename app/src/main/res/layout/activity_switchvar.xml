@@ -6,20 +6,24 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent">
 
+
         <!-- ボタン1 -->
         <Button
+
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
+            app:backgroundTint="#000000"
             android:text="ホーム"
             />
 
@@ -33,6 +37,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
+            app:backgroundTint="#000000"
             android:text="メイン" />
 
         <!-- ボタン4 -->
@@ -43,6 +48,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
+            app:backgroundTint="#000000"
             android:text="掲示板" />
 
         <!-- ボタン5 -->
@@ -53,6 +59,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
+            app:backgroundTint="#000000"
             android:text="設定" />
 
     </LinearLayout>
