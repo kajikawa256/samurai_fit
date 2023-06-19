@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Button
-import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,14 +32,12 @@ class MainActivity : AppCompatActivity() {
         val myButton4 = findViewById<Button>(R.id.button4)
 
         myButton1.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
-            finish()
         }
 
         myButton2.setOnClickListener {
-//            val intent = Intent(this, Setting::class.java)
-//            startActivity(intent)
+
         }
 
         myButton3.setOnClickListener {

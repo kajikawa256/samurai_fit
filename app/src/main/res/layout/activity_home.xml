@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <include layout="@layout/activity_switchvar" />
+
 
     <!--    &lt;!&ndash; recyclerview追加 &ndash;&gt;-->
 <!--    <androidx.recyclerview.widget.RecyclerView-->
@@ -92,7 +94,7 @@
         tools:layout_editor_absoluteY="267dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="漆日目"
@@ -101,7 +103,7 @@
         tools:layout_editor_absoluteY="97dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonpp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="陸日目"
@@ -110,7 +112,7 @@
         tools:layout_editor_absoluteY="180dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonppp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="参日目"

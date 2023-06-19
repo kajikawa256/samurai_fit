@@ -16,22 +16,21 @@ class Setting : AppCompatActivity() {
         val myButton3 = findViewById<Button>(R.id.button3)
         val myButton4 = findViewById<Button>(R.id.button4)
         myButton1.setOnClickListener {
-            val intent = Intent(this@Setting, MainActivity::class.java)
+            val intent = Intent(this@Setting, HomeActivity::class.java)
             startActivity(intent)
             finish()
         }
         myButton2.setOnClickListener {
-            //                Intent intent = new Intent(Setting.this, Setting.class);
-//                startActivity(intent);
+            val intent = Intent(this@Setting, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
         myButton3.setOnClickListener {
             //                Intent intent = new Intent(Setting.this, Setting.class);
 //                startActivity(intent);
         }
         myButton4.setOnClickListener {
-            val intent = Intent(this@Setting, Setting::class.java)
-            startActivity(intent)
-            finish()
+
         }
     }
 }

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Samurai_fit"
         tools:targetApi="31">
         <activity
-            android:name=".homeActivity"
+            android:name=".HomeActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
