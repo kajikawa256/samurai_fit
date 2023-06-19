@@ -27,189 +27,123 @@
 <!--    </LinearLayout>-->
 <!-- 線たち　-->
 
+
     <ImageView
         android:id="@+id/roadmapImageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/horizontalline_black"
-        app:layout_constraintEnd_toStartOf="@+id/button"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button8"
+        android:layout_width="49dp"
+        android:layout_height="86dp"
+        android:src="@drawable/diagonal_left"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="66dp" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="532dp" />
 
     <ImageView
         android:id="@+id/roadmapImageView"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:src="@drawable/horizontalline_black2"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        android:layout_width="49dp"
+        android:layout_height="86dp"
+        android:src="@drawable/diagonal_right"
         tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteY="67dp" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="454dp" />
 
     <ImageView
         android:id="@+id/roadmapImageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/horizontalline_black3"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button9"
+        android:layout_width="49dp"
+        android:layout_height="86dp"
+        android:src="@drawable/diagonal_left2"
         tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteY="178dp" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="368dp" />
 
     <ImageView
         android:id="@+id/roadmapImageView"
-        android:layout_width="53dp"
-        android:layout_height="55dp"
-        android:src="@drawable/horizontalline_black4"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button7"
+        android:layout_width="49dp"
+        android:layout_height="86dp"
+        android:src="@drawable/diagonal_right2"
         tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteY="178dp" />
-
-    <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/horizontalline_black5"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button4"
-        tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteY="292dp" />
-
-    <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:src="@drawable/horizontalline_black6"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button6"
-        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="184dp"
         tools:layout_editor_absoluteY="290dp" />
 
     <ImageView
         android:id="@+id/roadmapImageView"
-        android:layout_width="84dp"
-        android:layout_height="88dp"
-        android:src="@drawable/verticalline_black"
+        android:layout_width="49dp"
+        android:layout_height="86dp"
+        android:src="@drawable/diagonal_left3"
         tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="216dp" />
-
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="204dp" />
 
     <ImageView
         android:id="@+id/roadmapImageView"
-        android:layout_width="94dp"
-        android:layout_height="88dp"
-        android:src="@drawable/verticalline_black2"
+        android:layout_width="49dp"
+        android:layout_height="86dp"
+        android:src="@drawable/diagonal_right3"
         tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteX="297dp"
-        tools:layout_editor_absoluteY="99dp" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="64dp"
-        android:text="玖日目"
-        app:layout_constraintBottom_toTopOf="@+id/button9"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="64dp"
-        android:text="捌日目"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="161dp" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="118dp" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="伍日目"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="180dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="267dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="64dp"
         android:text="漆日目"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="97dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="23dp"
         android:text="陸日目"
-        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="178dp" />
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="180dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="64dp"
         android:text="参日目"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="431dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="23dp"
         android:text="壱日目"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="594dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
         android:text="弐日目"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
-        tools:layout_editor_absoluteX="161dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="511dp" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
         android:text="肆日目"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="180dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="350dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
