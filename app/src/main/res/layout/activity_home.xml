@@ -29,10 +29,16 @@
 
 
     <include
+// layout
         android:id="@+id/include2"
         layout="@layout/activity_switchvar"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="16dp" />
+=======
+        layout="@layout/activity_switchvar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+// development
 
     <ImageView
         android:id="@+id/black6_7"
