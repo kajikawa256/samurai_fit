@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.widget.LinearLayout
 import android.widget.TextView
 
-class autoPost : AppCompatActivity() {
-    val postList =arrayOf("投稿1","投稿2","投稿3")
+class AutoPost : AppCompatActivity() {
+    private val postList =arrayOf("投稿1","投稿2","投稿3")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
