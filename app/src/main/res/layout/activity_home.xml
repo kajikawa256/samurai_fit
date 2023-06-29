@@ -32,140 +32,228 @@
         android:id="@+id/include2"
         layout="@layout/activity_switchvar"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="49dp"
-        android:layout_height="86dp"
+        android:id="@+id/black6_7"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="502dp"
+        android:layout_marginTop="532dp"
         android:layout_marginEnd="178dp"
-        android:src="@drawable/diagonal_left"
+        android:src="@drawable/diogonal_left_black1"
         app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="@+id/include2"
         app:layout_constraintTop_toTopOf="@+id/include2"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="49dp"
-        android:layout_height="86dp"
+        android:id="@+id/black5_6"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="415dp"
+        android:layout_marginTop="438dp"
         android:layout_marginEnd="178dp"
-        android:src="@drawable/diagonal_right"
+        android:src="@drawable/diogonal_right_black"
         app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="@+id/include2"
         app:layout_constraintTop_toTopOf="@+id/include2"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="49dp"
-        android:layout_height="86dp"
+        android:id="@+id/black4_5"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="344dp"
         android:layout_marginEnd="178dp"
-        android:src="@drawable/diagonal_left2"
+        android:src="@drawable/diogonal_left_black2"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="@+id/include2"
+        tools:ignore="DuplicateIds,MissingConstraints,NotSibling" />
+
+    <ImageView
+        android:id="@+id/black3_4"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="178dp"
+        android:src="@drawable/diogonal_right_black2"
         app:layout_constraintEnd_toEndOf="@+id/include2"
         app:layout_constraintStart_toStartOf="@+id/include2"
         app:layout_constraintTop_toTopOf="@+id/include2"
         tools:ignore="DuplicateIds,MissingConstraints,NotSibling" />
 
     <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="49dp"
-        android:layout_height="86dp"
+        android:id="@+id/black2_3"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="245dp"
+        android:layout_marginTop="152dp"
         android:layout_marginEnd="178dp"
-        android:src="@drawable/diagonal_right2"
+        android:src="@drawable/diogonal_left_black3"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="@+id/include2"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/black1_2"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="178dp"
+        android:src="@drawable/diogonal_right_black3"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="@+id/include2"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/red1_2"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="178dp"
+        android:src="@drawable/diogonal_right_red"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="@+id/include2"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/red2_3"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="178dp"
+        android:src="@drawable/diogonal_left_red"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="@+id/include2"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/red3_4"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="178dp"
+        android:src="@drawable/diogonal_right_red2"
         app:layout_constraintEnd_toEndOf="@+id/include2"
         app:layout_constraintStart_toStartOf="@+id/include2"
         app:layout_constraintTop_toTopOf="@+id/include2"
         tools:ignore="DuplicateIds,MissingConstraints,NotSibling" />
 
     <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="49dp"
-        android:layout_height="86dp"
+        android:id="@+id/red4_5"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="344dp"
         android:layout_marginEnd="178dp"
-        android:src="@drawable/diagonal_left3"
+        android:src="@drawable/diogonal_left_red2"
         app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="@+id/include2"
+        tools:ignore="DuplicateIds,MissingConstraints,NotSibling" />
+
+    <ImageView
+        android:id="@+id/red5_6"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginEnd="178dp"
+        android:src="@drawable/diogonal_right_red3"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="@+id/include2"
         app:layout_constraintTop_toTopOf="@+id/include2"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <ImageView
-        android:id="@+id/roadmapImageView"
-        android:layout_width="49dp"
-        android:layout_height="86dp"
+        android:id="@+id/red6_7"
+        android:layout_width="73dp"
+        android:layout_height="83dp"
         android:layout_marginStart="184dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="532dp"
         android:layout_marginEnd="178dp"
-        android:src="@drawable/diagonal_right3"
+        android:src="@drawable/diogonal_left_red3"
         app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="@+id/include2"
         app:layout_constraintTop_toTopOf="@+id/include2"
-        tools:ignore="DuplicateIds,MissingConstraints" />
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/button7"
+        android:id="@+id/button_five"
         android:layout_width="122dp"
         android:layout_height="65dp"
-        android:layout_marginTop="105dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="60dp"
         android:src="@drawable/fiveday"
         android:text="伍日目"
         app:layout_constraintEnd_toEndOf="@+id/include2"
-        app:layout_constraintTop_toBottomOf="@+id/buttonppp"
+        app:layout_constraintTop_toBottomOf="@+id/button_three"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/buttonp"
+        android:id="@+id/button_seven"
         android:layout_width="122dp"
         android:layout_height="65dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="60dp"
         android:src="@drawable/sevenday"
         android:text="漆日目"
         app:layout_constraintEnd_toEndOf="@+id/include2"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button_five"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/buttonpp"
+        android:id="@+id/button_six"
         android:layout_width="122dp"
         android:layout_height="65dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="105dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="128dp"
         android:src="@drawable/sixday"
         android:text="陸日目"
         app:layout_constraintStart_toStartOf="@+id/include2"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button_four"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/buttonppp"
+        android:id="@+id/button_three"
         android:layout_width="122dp"
         android:layout_height="65dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="60dp"
         android:src="@drawable/threeday"
         android:text="参日目"
         app:layout_constraintEnd_toEndOf="@+id/include2"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button_one"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/button5"
+        android:id="@+id/button_one"
         android:layout_width="122dp"
         android:layout_height="65dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="63dp"
         android:src="@drawable/oneday"
         android:text="壱日目"
         app:layout_constraintEnd_toEndOf="@+id/include2"
@@ -173,11 +261,11 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/button6"
+        android:id="@+id/button_two"
         android:layout_width="122dp"
         android:layout_height="65dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="126dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="112dp"
         android:src="@drawable/twoday"
         android:text="弐日目"
         app:layout_constraintStart_toStartOf="@+id/include2"
@@ -185,15 +273,15 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/button9"
+        android:id="@+id/button_four"
         android:layout_width="122dp"
         android:layout_height="65dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="105dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="128dp"
         android:src="@drawable/fourday"
         android:text="肆日目"
         app:layout_constraintStart_toStartOf="@+id/include2"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button_two"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -204,8 +292,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="16dp"
-        android:textSize="24sp"
-        android:fontFamily="@f"/>
+        android:textSize="24sp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
