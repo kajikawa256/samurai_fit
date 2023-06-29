@@ -23,8 +23,8 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
         myButton3.setOnClickListener {
-            // val intent = Intent(this, Setting::class.java)
-            // startActivity(intent)
+             val intent = Intent(this@HomeActivity, AutoPost::class.java)
+             startActivity(intent)
         }
         myButton4.setOnClickListener {
             val intent = Intent(this@HomeActivity, Setting::class.java)

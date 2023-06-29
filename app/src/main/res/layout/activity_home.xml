@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <include layout="@layout/activity_switchvar" />
-
 
     <!--    &lt;!&ndash; recyclerview追加 &ndash;&gt;-->
 <!--    <androidx.recyclerview.widget.RecyclerView-->
@@ -29,6 +27,11 @@
 <!--    </LinearLayout>-->
 <!-- 線たち　-->
 
+
+    <include
+        layout="@layout/activity_switchvar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
         android:id="@+id/roadmapImageView"

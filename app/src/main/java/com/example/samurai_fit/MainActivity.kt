@@ -37,12 +37,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         myButton2.setOnClickListener {
-
+//            val intent = Intent(this, MainActivity::class.java)
+//            startActivity(intent)
         }
 
         myButton3.setOnClickListener {
-//            val intent = Intent(this, Setting::class.java)
-//            startActivity(intent)
+            val intent = Intent(this, AutoPost::class.java)
+            startActivity(intent)
+
         }
 
         myButton4.setOnClickListener {
