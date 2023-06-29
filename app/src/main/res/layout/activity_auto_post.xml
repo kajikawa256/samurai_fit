@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".AutoPost">
 
+    <include layout="@layout/activity_switchvar" />
+
     <LinearLayout
         android:id="@+id/containerLayout"
         android:layout_width="409dp"
