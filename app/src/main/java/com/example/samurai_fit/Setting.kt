@@ -17,7 +17,6 @@ class Setting : AppCompatActivity() {
         notifyBtn.setOnClickListener {
             val intent = Intent(this@Setting, Notification::class.java)
             startActivity(intent)
-            finish()
         }
 
 
