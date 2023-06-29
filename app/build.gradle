@@ -9,7 +9,9 @@ android {
 
     defaultConfig {
         applicationId "com.example.samurai_fit"
+
         minSdk 25
+
         targetSdk 33
         versionCode 1
         versionName "1.0"
