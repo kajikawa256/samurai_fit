@@ -37,8 +37,9 @@ class Setting : AppCompatActivity() {
             finish()
         }
         myButton3.setOnClickListener {
-            //                Intent intent = new Intent(Setting.this, Setting.class);
-//                startActivity(intent);
+            val intent = Intent(this@Setting, AutoPost::class.java)
+            startActivity(intent)
+            finish()
         }
         myButton4.setOnClickListener {
 
