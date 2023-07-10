@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+    <!ELEMENT root (item*)>
+    <!ELEMENT item (#PCDATA)>
+    <!ATTLIST item id CDATA #IMPLIED>
+    ]>
+<root>
+    <!-- 要素や属性をここに追加 -->
+</root>
