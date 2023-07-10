@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">samurai_fit</string>
 
-<!-- 運動内容 hard -->
+    <!-- 運動内容 hard -->
     <string-array name="hardExercise">
         <item>ジョギング30分</item>
         <item>腕立て伏せ10回3セット</item>
@@ -12,7 +12,7 @@
         <item>サイクリング30分</item>
     </string-array>
 
-<!-- 運動内容 soft -->
+    <!-- 運動内容 soft -->
     <string-array name="softExercise">
         <item>全身のストレッチ10分</item>
         <item>ヨガ15分</item>
