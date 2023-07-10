@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">samurai_fit</string>
 
-<!-- 運動内容 hard -->
+    <!-- 運動内容 hard -->
     <string-array name="hardExercise">
         <item>Hard1</item>
         <item>Hard2</item>
@@ -9,7 +9,7 @@
         <item>Hard4</item>
     </string-array>
 
-<!-- 運動内容 soft -->
+    <!-- 運動内容 soft -->
     <string-array name="softExercise">
         <item>Soft1</item>
         <item>Soft2</item>

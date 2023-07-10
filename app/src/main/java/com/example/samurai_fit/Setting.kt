@@ -18,6 +18,12 @@ class Setting : AppCompatActivity() {
             val intent = Intent(this@Setting, Notification::class.java)
             startActivity(intent)
         }
+        val autopostBtn = findViewById<Button>(R.id.autopostBtn)
+
+        autopostBtn.setOnClickListener{
+            val intent = Intent(this@Setting,Set_Autopost::class.java)
+            startActivity(intent)
+        }
 
 
         // 画面切り替え用のスイッチの処理
