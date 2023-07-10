@@ -8,6 +8,10 @@ import android.os.Bundle
 import android.widget.TextView
 import android.widget.Button
 import androidx.annotation.RequiresApi
+import java.time.LocalDate
+import java.util.Timer
+import java.util.TimerTask
+
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
@@ -18,25 +22,55 @@ class MainActivity : AppCompatActivity() {
 
         /*
             毎日、日替わりの運動を表示する。
-            ランダムで値を取得し、それに対応した運動を表示する。
+            ランダムで値を取得し、それに対応した運動を表示する。✓
+            運動内容はアプリを更新しても変更されないようにする
             更新タイミングは日付変更直後
          */
 
-        // 運動内容
-        val hardExercise : Array<String> = resources.getStringArray(R.array.hardExercise)
-        val softExercise : Array<String> = resources.getStringArray(R.array.softExercise)
+        // 現在の日付を取得
+        var currentDate = LocalDate.now()
 
-        // 一日の運動をランダムで取得するための変数
-        val hardRandom = (0..hardExercise.size).random()
-        val softRandom = (0..softExercise.size).random()
+        // タイマータスクを作成
+        val timer = Timer()
 
-        // textに運動内容を入力
-        val hard: String = hardExercise[hardRandom]
-        val soft: String = softExercise[softRandom]
+        // 1秒ごとに日付をチェックするタスクを実行
+        timer.scheduleAtFixedRate(object : TimerTask() {
+            override fun run() {
+                val now = LocalDate.now()
 
-        // Textviewを探してくる
-        val todaysGoal: TextView = findViewById(R.id.TodaysGoal)
-        todaysGoal.text = "$hard\n$soft\n 水分補給 2L"// 代入
+                if (now != currentDate) {
+                    // 日付が変わった場合の処理
+                    currentDate = now
+                    // Textviewを探してくる
+                    val todaysGoal: TextView = findViewById(R.id.TodaysGoal)
+
+                    // 運動内容
+                    val hardExercise: Array<String> = resources.getStringArray(R.array.hardExercise)
+                    val softExercise: Array<String> = resources.getStringArray(R.array.softExercise)
+
+                    // 一日の運動をランダムで取得する
+                    val hardRandom = (0..hardExercise.size).random()
+                    val softRandom = (0..softExercise.size).random()
+
+                    // textに運動内容を入力
+                    val hard: String = hardExercise[hardRandom]
+                    val soft: String = softExercise[softRandom]
+
+                    todaysGoal.text = "$hard\n$soft\n 水分補給 2L" // textviewに代入
+                }
+            }
+        }, 0, 1000)
+
+
+
+
+
+
+
+        /*
+        ----------------------------------   ↓↓共通処理↓↓    ------------------------------------------------------------------
+                 */
+
 
         //画面切り替え用のスイッチの処理
         val myButton1 = findViewById<Button>(R.id.button1)
@@ -72,3 +106,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+
