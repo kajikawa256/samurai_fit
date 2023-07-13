@@ -1,12 +1,24 @@
 <resources>
     <string name="app_name">samurai_fit</string>
 
-    <string name="today_goal"></string>
-    <string-array name="menu">
-        <item>腕立て</item>
-        <item>回</item>
+    <!-- 運動内容 hard -->
+    <string-array name="hardExercise">
+        <item>ジョギング30分</item>
+        <item>腕立て伏せ10回3セット</item>
+        <item>プランク1分3セット</item>
+        <item>スクワット10回3セット</item>
+        <item>ステップアップ10回3セット</item>
+        <item>マウンテンクライマー10回3セット</item>
+        <item>サイクリング30分</item>
     </string-array>
-    <string name="goal">10</string>
+
+    <!-- 運動内容 soft -->
+    <string-array name="softExercise">
+        <item>全身のストレッチ10分</item>
+        <item>ヨガ15分</item>
+        <item>ラジオ体操第一</item>
+        <item>ウォーキング10分</item>
+    </string-array>
 
     <string name="notify">通知機能</string>
     <string name="goals">目標設定</string>
@@ -14,7 +26,8 @@
     <string name="autopost">自動投稿</string>
     <string name="privacy">プライバシー関連</string>
     <string name="setting">設定</string>
-    <string name="a">うんこ\n</string>
+
     <string name="設定" />
     <string name="ホーム" />
+
 </resources>

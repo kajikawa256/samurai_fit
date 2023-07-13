@@ -3,24 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/tatami">
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="24dp"
         android:orientation="horizontal"
+
         app:layout_constraintBottom_toBottomOf="parent">
+
 
         <!-- ボタン1 -->
         <Button
+
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
-            android:text="進捗" />
+            android:text="進捗"
+            app:backgroundTint="#000000" />
 
         <!-- ボタン2 -->
 
@@ -32,7 +38,8 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
-            android:text="目標" />
+            android:text="目標"
+            app:backgroundTint="#000000" />
 
         <!-- ボタン4 -->
         <Button
@@ -42,7 +49,8 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
-            android:text="掲示板" />
+            android:text="掲示板"
+            app:backgroundTint="#000000" />
 
         <!-- ボタン5 -->
         <Button
@@ -52,7 +60,8 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
-            android:text="設定" />
+            android:text="設定"
+            app:backgroundTint="#000000" />
 
     </LinearLayout>
 
