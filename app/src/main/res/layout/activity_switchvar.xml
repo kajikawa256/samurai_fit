@@ -25,7 +25,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
-            android:text="ホーム"
+            android:text="進捗"
             app:backgroundTint="#000000" />
 
         <!-- ボタン2 -->
@@ -38,7 +38,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
-            android:text="メイン"
+            android:text="目標"
             app:backgroundTint="#000000" />
 
         <!-- ボタン4 -->
