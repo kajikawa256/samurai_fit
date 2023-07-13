@@ -4,8 +4,9 @@
     android:shape="rectangle"
     >
     <!-- 背景色変更 -->
-    <solid
+    <!-- <solid
         android:color="@color/white" />
+       -->
     <!-- 枠線の色、幅 -->
     <stroke
         android:color="@color/black"
