@@ -30,4 +30,7 @@
     <string name="設定" />
     <string name="ホーム" />
 
+    <string name="address">メールアドレスまたは電話番号</string>
+    <string name="password">パスワード</string>
+
 </resources>

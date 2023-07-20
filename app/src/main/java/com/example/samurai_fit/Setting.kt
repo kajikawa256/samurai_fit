@@ -32,6 +32,13 @@ class Setting : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val loginBtn = findViewById<Button>(R.id.loginBtn)
+
+        loginBtn.setOnClickListener{
+            val intent = Intent(this@Setting, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
 
         // 画面切り替え用のスイッチの処理
         val myButton1 = findViewById<Button>(R.id.button1)

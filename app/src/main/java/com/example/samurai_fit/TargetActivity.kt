@@ -2,6 +2,9 @@ package com.example.samurai_fit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.RadioGroup
 import android.widget.SeekBar
 import android.widget.TextView
 
@@ -38,5 +41,15 @@ class TargetActivity : AppCompatActivity() {
                 }
             }
         )
+
+        val group = findViewById<RadioGroup>(R.id.radioGroup2)
+
+        group.check(R.id.radioButton)
+
+        val btn = findViewById<Button>(R.id.LoadBtn)
+
+        btn.setOnClickListener(View.OnClickListener {
+            finish()
+        })
     }
 }
