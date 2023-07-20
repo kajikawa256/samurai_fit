@@ -223,8 +223,13 @@ class HomeActivity : AppCompatActivity() {
                 black5_6.visibility = View.VISIBLE
                 black6_7.visibility = View.VISIBLE
 
-                weekNumber++
-                weekview.text = "$weekNumber:週間目" //週数を表示するTextViewを更新
+                if(weekNumber > 6){
+                    weekNumber = 0
+                    weekview.text = "0:週間目"
+                }else{
+                    weekNumber++
+                    weekview.text = "$weekNumber:週間目" //週数を表示するTextViewを更新
+                }
 
                 //保存
                 saveButtonState()
