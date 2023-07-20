@@ -138,7 +138,7 @@ class HomeActivity : AppCompatActivity() {
             Button_two.isEnabled = false
             Button_three.isEnabled = true
 
-            //保存
+            // 保存
             saveButtonState()
         }
 
