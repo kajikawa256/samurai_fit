@@ -10,9 +10,12 @@ import android.widget.TextView
 
 class AutoPost : AppCompatActivity() {
     //自動投稿で表示する配列
-    private val postList =arrayOf("投稿1","投稿2","投稿3")
+    //private val postList =arrayOf("投稿1","投稿2","投稿3")
+    val titleList = arrayOf("件名1","件名2")
+    val userList = arrayOf("投稿者1", "投稿者2")
+    val contentList = arrayOf("投稿内容1", "投稿内容2")
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_auto_post)
@@ -41,12 +44,12 @@ class AutoPost : AppCompatActivity() {
                startActivity(intent);
         }
         //画面表示処理
-        val containerLayout: LinearLayout = findViewById(R.id.containerLayout)
-        for (post in postList) {
-            val textView = TextView(this)
-            textView.text = post
-            containerLayout.addView(textView)
-        }
+        //val containerLayout: LinearLayout = findViewById(R.id.containerLayout)
+        //for (post in postList) {
+        //    val textView = TextView(this)
+        //    textView.text = post
+        //    containerLayout.addView(textView)
+        //}
 
     }
 }

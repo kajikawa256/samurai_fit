@@ -1,20 +1,23 @@
 <resources>
     <string name="app_name">samurai_fit</string>
 
-<!-- 運動内容 hard -->
+    <!-- 運動内容 hard -->
     <string-array name="hardExercise">
-        <item>Hard1</item>
-        <item>Hard2</item>
-        <item>Hard3</item>
-        <item>Hard4</item>
+        <item>ジョギング30分</item>
+        <item>腕立て伏せ10回3セット</item>
+        <item>プランク1分3セット</item>
+        <item>スクワット10回3セット</item>
+        <item>ステップアップ10回3セット</item>
+        <item>マウンテンクライマー10回3セット</item>
+        <item>サイクリング30分</item>
     </string-array>
 
-<!-- 運動内容 soft -->
+    <!-- 運動内容 soft -->
     <string-array name="softExercise">
-        <item>Soft1</item>
-        <item>Soft2</item>
-        <item>Soft3</item>
-        <item>Soft4</item>
+        <item>全身のストレッチ10分</item>
+        <item>ヨガ15分</item>
+        <item>ラジオ体操第一</item>
+        <item>ウォーキング10分</item>
     </string-array>
 
     <string name="notify">通知機能</string>
@@ -26,5 +29,8 @@
 
     <string name="設定" />
     <string name="ホーム" />
+
+    <string name="address">メールアドレスまたは電話番号</string>
+    <string name="password">パスワード</string>
 
 </resources>

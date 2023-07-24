@@ -1,5 +1,6 @@
 package com.example.samurai_fit
 
+
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.app.PendingIntent.getBroadcast
@@ -24,6 +25,7 @@ class Notification : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_notification)
+
 
         timetext = findViewById(R.id.editText)
 
@@ -84,5 +86,6 @@ class Notification : AppCompatActivity() {
 
         //タイムピッカーダイアログを生成および設定
         TimePickerDialog(this, timeSetListener, cal.get(Calendar.HOUR_OF_DAY), cal.get(Calendar.MINUTE), true).show()
+
     }
 }

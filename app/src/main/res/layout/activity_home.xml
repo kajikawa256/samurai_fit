@@ -8,24 +8,24 @@
 
 
     <!--    &lt;!&ndash; recyclerview追加 &ndash;&gt;-->
-<!--    <androidx.recyclerview.widget.RecyclerView-->
-<!--        android:id="@+id/roadmapRecyclerView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent" />-->
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/roadmapRecyclerView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
 
     <!-- Imageview追加 -->
-<!--   -->
-<!--    <LinearLayout&ndash;&gt;-->
-        <!--        android:layout_width="match_parent"-->
-        <!--        android:layout_height="match_parent">
-        <!-        <ImageView-->
-<!--            android:id="@+id/roadmapImageView"-->
-<!--            android:layout_width="523dp"-->
-<!--            android:layout_height="558dp"-->
-<!--            android:src="@drawable/back" />-->
+    <!--   -->
+    <!--    <LinearLayout&ndash;&gt;-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">
+    <!-        <ImageView-->
+    <!--            android:id="@+id/roadmapImageView"-->
+    <!--            android:layout_width="523dp"-->
+    <!--            android:layout_height="558dp"-->
+    <!--            android:src="@drawable/back" />-->
 
-<!--    </LinearLayout>-->
-<!-- 線たち　-->
+    <!--    </LinearLayout>-->
+    <!-- 線たち　-->
 
 
     <include
