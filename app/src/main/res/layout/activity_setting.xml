@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".Setting">
 
-    <include layout="@layout/activity_switchvar" />
+    <include
+        android:id="@+id/include3"
+        layout="@layout/activity_switchvar" />
 
     <Button
         android:id="@+id/loginBtn"
@@ -73,11 +75,13 @@
         android:id="@+id/setting"
         android:layout_width="339dp"
         android:layout_height="104dp"
+        android:layout_marginTop="24dp"
         android:gravity="center"
         android:text="@string/setting"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageView
