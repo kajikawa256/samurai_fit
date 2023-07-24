@@ -19,7 +19,7 @@ class Notification : AppCompatActivity() {
 
     private lateinit var timetext: EditText
 
-    private var h = 0;
+    private var h = 25;
     private var m = 0;
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,13 +54,16 @@ class Notification : AppCompatActivity() {
                 applicationContext, 0, intent,
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
+            if (h != 25){
+                // アラームをセットする
+                val am = getSystemService(ALARM_SERVICE) as AlarmManager
+                am.setExact(AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pending)
 
-            // アラームをセットする
-            val am = getSystemService(ALARM_SERVICE) as AlarmManager
-            am.setExact(AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pending)
-
-            Toast.makeText(this, "アラームを"+ h + "時" + m + "分に設定しました", Toast.LENGTH_SHORT).show()
-            finishAndRemoveTask()
+                Toast.makeText(this, "アラームを"+ h + "時" + m + "分に設定しました", Toast.LENGTH_SHORT).show()
+                finishAndRemoveTask()
+            }else{
+                Toast.makeText(this, "時間を設定してください", Toast.LENGTH_SHORT).show()
+            }
         })
 
 
