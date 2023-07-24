@@ -3,16 +3,14 @@ package com.example.samurai_fit
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.graphics.Typeface
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import java.util.*
 
 class HomeActivity : AppCompatActivity() {
 
@@ -33,7 +31,6 @@ class HomeActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-//        println("onCreate")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
@@ -47,6 +44,7 @@ class HomeActivity : AppCompatActivity() {
         Button_seven = findViewById<ImageButton>(R.id.button_seven)
 
         val weekview = findViewById<TextView>(R.id.weekview)
+        weekview.setTypeface(null, Typeface.BOLD)
 
         //黒線定義
         val black1_2 = findViewById<ImageView>(R.id.black1_2)
@@ -230,33 +228,15 @@ class HomeActivity : AppCompatActivity() {
                     weekNumber++
                     weekview.text = "$weekNumber:週間目" //週数を表示するTextViewを更新
                 }
-
                 //保存
                 saveButtonState()
             }
         }
-
-//        // ボタンの状態をログに出力
-//        Log.d("ButtonState", "Button_one: ${Button_one.isEnabled}")
-//        Log.d("ButtonState", "Button_two: ${Button_two.isEnabled}")
-//        Log.d("ButtonState", "Button_three: ${Button_three.isEnabled}")
-//        Log.d("ButtonState", "Button_four: ${Button_four.isEnabled}")
-//        Log.d("ButtonState", "Button_five: ${Button_five.isEnabled}")
-//        Log.d("ButtonState", "Button_six: ${Button_six.isEnabled}")
     }
 
     //保存メソッド
     private fun saveButtonState() {
-//        println("save")
         val editor = sharedPreferences.edit()
-//        println("1:" + Button_one.isEnabled)
-//        println("2:" + Button_two.isEnabled)
-//        println("3:" + Button_three.isEnabled)
-//        println("4:" + Button_four.isEnabled)
-//        println("5:" + Button_five.isEnabled)
-//        println("6:" + Button_six.isEnabled)
-//        println("7:" + Button_seven.isEnabled)
-
         editor.putBoolean("Button_one", Button_one.isEnabled)
         editor.putBoolean("Button_two", Button_two.isEnabled)
         editor.putBoolean("Button_three", Button_three.isEnabled)
@@ -270,9 +250,7 @@ class HomeActivity : AppCompatActivity() {
 
     //読み込みメソッド
     private fun loadButtonState() {
-//        println("load")
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-//        println(sharedPreferences)
         //ボタン定義
         Button_one = findViewById<ImageButton>(R.id.button_one)
         Button_two = findViewById<ImageButton>(R.id.button_two)
@@ -306,25 +284,7 @@ class HomeActivity : AppCompatActivity() {
         Button_five.isEnabled = sharedPreferences.getBoolean("Button_five", true)
         Button_six.isEnabled = sharedPreferences.getBoolean("Button_six", true)
         Button_seven.isEnabled = sharedPreferences.getBoolean("Button_seven", true)
-        weekNumber = sharedPreferences.getInt("weekview",0);
-
-        //Button_seven.isEnabled = sharedPreferences.getBoolean("Button_seven", false)
-//        println("pre1:" + sharedPreferences.getBoolean("Button_one", true))
-//        println("pre2:" + sharedPreferences.getBoolean("Button_two", true))
-//        println("pre3:" + sharedPreferences.getBoolean("Button_three", true))
-//        println("pre4:" + sharedPreferences.getBoolean("Button_four", true))
-//        println("pre5:" + sharedPreferences.getBoolean("Button_five", true))
-//        println("pre6:" + sharedPreferences.getBoolean("Button_six", true))
-//        println("pre7:" + sharedPreferences.getBoolean("Button_seven", true))
-//
-//
-//        println("load1:" + Button_one.isEnabled)
-//        println("load2:" + Button_two.isEnabled)
-//        println("load3:" + Button_three.isEnabled)
-//        println("load4:" + Button_four.isEnabled)
-//        println("load5:" + Button_five.isEnabled)
-//        println("load6:" + Button_six.isEnabled)
-//        println("load7:" + Button_seven.isEnabled)
+        weekNumber = sharedPreferences.getInt("weekview",0)
 
         if(Button_one.isEnabled){
             Button_one.isEnabled = true
